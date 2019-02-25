@@ -1,0 +1,15 @@
+{
+    "name": "xbsoft/rpclog",
+    "description": "The package of xbsoft what having write logs.",
+    "type": "stable",
+    "require": {
+        "xbsoft/base": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enze.wei",
+            "email": "enzewei@gmail.com"
+        }
+    ]
+}
