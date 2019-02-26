@@ -11,5 +11,10 @@
             "name": "enze.wei",
             "email": "enzewei@gmail.com"
         }
-    ]
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "xb\\rpclog\\" : "src"
+        }
+    }
 }
