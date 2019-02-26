@@ -78,7 +78,7 @@ class RpcLog {
 	 * @return [void]
 	 */
 	static public function init() {
-		$server = Loader::loadConfig('rpclog');
+		$server = Config::$server;
 		self::$_udpHost = $server['host'];
 		self::$_udpPort = $server['port'];
 	}

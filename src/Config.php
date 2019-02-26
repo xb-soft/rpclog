@@ -27,4 +27,9 @@ class Config {
 	const RPC_LOG_TYPE_SOCKET = 'socket';
 	const RPC_LOG_TYPE_DAO = 'dao';
 	const RPC_LOG_TYPE_EXCEPTION = 'exception';
+
+	public $server = [
+        'host' => '127.0.0.1',
+        'port' => 19001,
+    ];
 }
